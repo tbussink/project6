@@ -3,6 +3,7 @@ body {
 	margin: 0 auto;
 	text-align: center;
 	background-color: #f0f8ff;
+	font-size: 15px;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -111,6 +112,7 @@ footer {
 	margin-top: 30px;
 }
 
+
 #algemeneinfo p {
 	margin-top: 30px;
 	margin-right: 200px;
@@ -118,6 +120,17 @@ footer {
 }
 
 #algemeneinfo img {
+	margin-top: 40px;
+	width: 700px;
+}
+
+#hosting p {
+	margin-right: 200px;
+	margin-left:200px;
+	margin-top: 30px;
+}
+
+#hosting img {
 	margin-top: 40px;
 	width: 700px;
 }
