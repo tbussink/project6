@@ -1,0 +1,129 @@
+body {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #f0f8ff;
+	font-family: 'Open Sans', sans-serif;
+}
+
+header img {
+	height: 100px;
+	margin-top: 20px;
+}
+
+#doel p {
+	font-size: 15px;
+	margin-right: 150px;
+	margin-left: 150px;
+}
+
+section h1 {
+	margin-top: 50px;
+}
+
+section a {
+	text-decoration: none;
+	color: white;
+	background: #2e3a4b;
+	text-transform: uppercase;
+	font-size: 25px;
+	font-weight: bold;
+	padding: 3px 6px 3px 6px;
+	border-radius: 5px 5px 5px 5px;
+	border: 1px solid silver;
+	margin-right: 10px;
+	margin: 10px;
+}
+
+#silverbutton {
+	margin-top: 20px;
+}
+
+#tekstwebhosting {
+	font-size: 15px;
+	margin-right: 200px;
+	margin-left: 200px;
+}
+
+#tekstsnelheid {
+	font-size: 15px;
+	margin-left: 260px;
+	margin-right: 260px;
+}
+
+#tekstveilig {
+	font-size: 15px;
+	margin-left: 550px;
+	margin-right: 550px;
+}
+
+#tekstsimpel {
+	font-size: 15px;
+	margin-right: 300px;
+	margin-left: 300px;
+}
+
+#brons {
+	margin-top: 70px;
+	margin-right: 500px;
+	width: 30%;
+}
+
+#silver {
+	margin-top: -560px;
+}
+
+#goud {
+	margin-top: -560px;
+	margin-left: 865px;
+}
+
+#afbeelding1 {
+	margin-top: 50px;
+	margin-right: 500px;
+}
+
+#afbeelding2 {
+	margin-top: -230px;
+}
+
+#afbeelding3 {
+	margin-left: 500px;
+	margin-top: -225px;
+}
+
+#geel {
+	margin-top: 70px;
+	margin-right: 900px;
+}
+
+#oranje {
+	margin-top: -435px;
+}
+
+#groen {
+	margin-left: 900px;
+	margin-top: -435px;
+}
+
+footer {
+	font-size: 50px;
+	margin-top: 30px;
+}
+
+#algemeneinfo p {
+	margin-top: 30px;
+	margin-right: 200px;
+	margin-left: 200px;
+}
+
+#algemeneinfo img {
+	margin-top: 40px;
+	width: 700px;
+}
+
+
+
+
+
+
