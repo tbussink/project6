@@ -22,6 +22,10 @@ section h1 {
 	margin-top: 50px;
 }
 
+section h2 {
+	margin-bottom: 30px;
+}
+
 section a {
 	text-decoration: none;
 	color: white;
@@ -135,9 +139,7 @@ footer {
 	width: 700px;
 }
 
-.w3-content .w3-display-container {
-	width: 100px;
-}
+
 
 
 
