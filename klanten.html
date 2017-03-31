@@ -5,8 +5,11 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 <link rel="stylesheet" type="text/css" href="style.css">
-<link rel="shortcut icon" type="image/ico" href="favicon.png" />
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <title>ColiCSS</title>
 </head>
 <body>
@@ -28,12 +31,12 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><a href="index.html">Home</a></li> 
-        <li class="active"><a href="algemeneinfo.html">Algemene informatie <span class="sr-only">(current)</span></a></li>
+        <li><a href="algemeneinfo.html">Algemene informatie</a></li>
         <li><a href="hosting.html">Wat is hosting?</a></li> 
         <li><a href="cloud.html">Informatie over Cloud</a></li>
-		<li><a href="">Contactpagina</a></li>
-		<li><a href="klanten.html">Klantenrecensies</a></li>
-		<li><a href="#">Social Media</a></li>
+    		<li><a href="#">Contactpagina</a></li>
+    		<li class="active"><a href="klanten.html">Klantenrecensies <span class="sr-only">(current)</span></a></li>
+    		<li><a href="#">Social Media</a></li>
       </ul>
       </ul>
     </div><!-- /.navbar-collapse -->
@@ -41,13 +44,32 @@
 
 	</nav>
 	<section>	
-		<div id="algemeneinfo">
-			<h1>Algemene informatie</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a ex quis lorem pharetra cursus. Praesent non ante sed sem pharetra lobortis quis placerat nisi. Nulla mattis eleifend felis non viverra. Vivamus lacus libero, commodo eget euismod non, suscipit eget purus. Cras rutrum, quam interdum volutpat condimentum, dolor odio tempus odio, sit amet ullamcorper nibh metus a odio. Suspendisse et ipsum pulvinar, molestie nulla nec, commodo justo. Proin tincidunt massa non ultricies mollis. Pellentesque semper ex ac augue maximus, ac fermentum justo vulputate. Proin porta, leo vel fringilla sagittis, justo nisi fringilla ex, et semper sapien lectus non neque. Maecenas gravida congue libero eget efficitur.
-				<br><br>
-				Vivamus tincidunt, ligula vel molestie congue, ex dolor ultricies diam, vel facilisis tellus augue et libero. Quisque placerat augue a sagittis pretium. Aliquam tincidunt rhoncus tortor a consequat. Nam tristique ut sem eu accumsan. Morbi quis odio diam. Nunc fringilla sodales orci. Mauris sed justo nisl. Nullam tempus odio placerat mauris consequat scelerisque.</p>
-			<img src="server.jpg">	
-		</div>		
+
+    <h2 class="w3-center">Automatic Slideshow</h2>
+
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="afbeelding1.jpg" style="width:100%">
+  <img class="mySlides" src="afbeelding2.jpg" style="width:100%">
+  <img class="mySlides" src="afbeelding3.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 10000); // Change image every 2 seconds
+}
+</script>
+
 	</section>
 	<footer>
 		COLICSS
